@@ -1,10 +1,9 @@
 {
-  "name": "linkurious-bower",
-  "version": "1.5.1",
+  "name": "linkurious-bower",  
   "description": "A JavaScript library to visualize and interact with graphs.",
   "main": [
-    "sigma.min.js",
-    "plugins.min.js"],
+    "sigma.js",
+    "plugins/plugins.js"],
   "keywords": [
     "sigma",
     "linkurious",
@@ -21,5 +20,6 @@
   "homepage": "https://github.com/Linkurious/linkurious.js",
   "authors": [
     "Linkurious SAS (@Linkurious)"
-  ]
+  ],
+  "private": true
 }
